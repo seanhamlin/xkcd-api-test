@@ -3,7 +3,7 @@
  *
  * @see http://casperjs.readthedocs.org/en/latest/modules/tester.html
  */
-casper.test.begin('614', 7, function suite(test) {
+casper.test.begin('Comic #614', 7, function suite(test) {
 
   casper.start(site + '/614/info.0.json?' + timestamp, function() {
     globalAPITests(this);

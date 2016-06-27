@@ -3,7 +3,7 @@
  *
  * @see http://casperjs.readthedocs.org/en/latest/modules/tester.html
  */
-casper.test.begin('Broken', 1, function suite(test) {
+casper.test.begin('Broken comic', 1, function suite(test) {
 
   casper.start(site + '/0/info.0.json?' + timestamp, function() {
     this.test.assertHttpStatus(404);
